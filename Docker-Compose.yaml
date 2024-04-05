@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  test:
+    build: ./
+    image: bookertestimage:1.0  
+    depends_on:
+      - web
+  web:
+    image: heroku:booker-site
+networks:
+  default:
+    external:
+      name: restful-booker-main_default

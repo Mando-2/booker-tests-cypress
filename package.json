@@ -1,0 +1,22 @@
+{
+  "name": "booker-tests-cypress",
+  "version": "1.0.0",
+  "description": "Cypress test example for heroku.booker",
+  "main": "index.js",
+  "scripts": {
+    "interactive": "cypress open --e2e --browser electron",
+    "detached": "cypress run --e2e --browser electron"
+  },
+  "keywords": [
+    "cypress",
+    "javascript",
+    "typescript",
+    "testing"
+  ],
+  "author": "David Grandfield",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.2",
+    "typescript": "^5.4.4"
+  }
+}
