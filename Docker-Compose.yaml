@@ -7,6 +7,6 @@ services:
       - web
   web:
     image: ghcr.io/mando-2/restful-booker-main:latest
-    container-name: restful-booker-site
+    container_name: booker-site
     ports:
-      - 3001:3001
+      - "3001:3001"
