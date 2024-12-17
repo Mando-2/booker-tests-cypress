@@ -1,3 +1,5 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 This project is an example set of basic tests to written to test the restful-booker-main instance.
 I ignored the existing tests that are included with that project when creating these tests.
 
