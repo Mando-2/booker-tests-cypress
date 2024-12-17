@@ -5,7 +5,7 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: "http://booker-site:3001",
+    baseUrl: "http://booker-site:3015",
     // baseUrl: "http://localhost:3001",
   },
 });

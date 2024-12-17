@@ -2,11 +2,11 @@ version: '3.3'
 services:
   test:
     build: ./
-    image: bookertestimage:1.0  
+    image: bookertestimage:1.0
     depends_on:
       - web
   web:
     image: ghcr.io/mando-2/restful-booker-main:latest
     container_name: booker-site
     ports:
-      - "3001:3001"
+      - "3015:3015"
